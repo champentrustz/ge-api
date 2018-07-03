@@ -20,7 +20,7 @@ if ($conn->connect_error) {
 }
 
 $dateArray = array('date' => date("Y-m-d"),
-    'time' => date("h:i:s"));
+    'time' => date("H:i:s"));
 echo json_encode($dateArray);
 
 

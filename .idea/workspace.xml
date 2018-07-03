@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2df5561-b968-45b5-9ca0-80829ffd4056" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/getCurrentTime.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,11 +49,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getCurrentTime.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/getCurrentTime.php">
+      <file leaf-file-name="getCurrentDateTime.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/getCurrentDateTime.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            <state relative-caret-position="221">
+              <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="get_date_day.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../csw_api/get_date_day.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="54" column="28" lean-forward="true" selection-end-line="117" />
             </state>
           </provider>
         </entry>
@@ -89,6 +97,7 @@
         <option value="$PROJECT_DIR$/getCourseAll.php" />
         <option value="$PROJECT_DIR$/createCourse.php" />
         <option value="$PROJECT_DIR$/getCurrentTime.php" />
+        <option value="$PROJECT_DIR$/getCurrentDateTime.php" />
       </list>
     </option>
   </component>
@@ -155,12 +164,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530611044780</updated>
-      <workItem from="1530611046979" duration="7444000" />
+      <workItem from="1530611046979" duration="9660000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7444000" />
+    <option name="totallyTimeSpent" value="9660000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1312" height="784" extended-state="6" />
@@ -236,10 +245,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getCurrentTime.php">
+    <entry file="file://$PROJECT_DIR$/../csw_api/get_date_day.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        <state relative-caret-position="204">
+          <caret line="54" column="28" lean-forward="true" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getCurrentDateTime.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
         </state>
       </provider>
     </entry>
