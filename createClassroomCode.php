@@ -30,8 +30,8 @@ $jsonArray = json_decode($content,true);
 
 $course_id = $jsonArray['course_id'];
 $group_id = $jsonArray['group_id'];
-$type = $jsonArray['course_name'];
-$code = $jsonArray['group_name'];
+$type = $jsonArray['type'];
+$code = $jsonArray['code'];
 
 if($type == 'checkin-code'){
     $sql_update = "UPDATE course
