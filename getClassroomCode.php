@@ -31,14 +31,14 @@ $group_id = $jsonArray['group_id'];
 $date_day = date("Y-m-d");
 $date_time = date('H:i:s');
 
-
+$course = array();
 
 $sql_course = "SELECT * FROM course WHERE deleted_at is null and course_id = '".$course_id."' and group_id = '".$group_id."'";
 $result_course = mysqli_query($conn, $sql_course);
 
 while($row_course = mysqli_fetch_assoc($result_course)) {
 
-    $course = $row_course;
+    $course[] = $row_course;
 
 }
 

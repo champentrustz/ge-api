@@ -35,6 +35,7 @@ $check_sql="SELECT * FROM course_check_student WHERE course_id = '".$course_id."
 $query_check=mysqli_query($conn,$check_sql);
 $count = mysqli_num_rows($query_check);
 $arrayFetch = null;
+$statusCheck = null;
 
 if($count > 0) {
     while ($fetch_check = mysqli_fetch_assoc($query_check)) {
@@ -44,12 +45,21 @@ if($count > 0) {
 
         if (strtotime($checkStart) >= strtotime($course_start) && strtotime($checkStart) <= strtotime($course_end)) {
 
+            $statusCheck = 'true';
             $checkArray = array('duplicate' => 'true');
             $arrayFetch = $fetch_check;
-            echo json_encode($checkArray + $arrayFetch);
+
+        }
+        else{
+            $checkArray = array('duplicate' => 'false');
         }
 
-
+    }
+    if($statusCheck == 'true'){
+        echo json_encode($checkArray + $arrayFetch);
+    }
+    else{
+        echo json_encode($checkArray);
     }
 }
 else{

@@ -51,6 +51,9 @@ if($count > 0) {
 
     echo json_encode($arrayFetch);
 }
+else{
+    echo json_encode($arrayFetch);
+}
 
 
 
