@@ -36,25 +36,21 @@ $query_check=mysqli_query($conn,$check_sql);
 $count = mysqli_num_rows($query_check);
 $arrayFetch = null;
 
-if($count > 0){
-    $fetch_check=mysqli_fetch_assoc($query_check);
+if($count > 0) {
+    while ($fetch_check = mysqli_fetch_assoc($query_check)) {
 
-        $checkStart = substr($fetch_check['checkin_date'],'10','6');
+        $checkStart = substr($fetch_check['checkin_date'], '11', '9');
 
 
-        if(strtotime($checkStart) >= strtotime($course_start) && strtotime($checkStart) <= strtotime($course_end)) {
+        if (strtotime($checkStart) >= strtotime($course_start) && strtotime($checkStart) <= strtotime($course_end)) {
 
             $checkArray = array('duplicate' => 'true');
             $arrayFetch = $fetch_check;
-            echo json_encode($checkArray+$arrayFetch);
-
-        }
-        else{
-            $checkArray = array('duplicate' => 'false');
-            echo json_encode($checkArray);
+            echo json_encode($checkArray + $arrayFetch);
         }
 
 
+    }
 }
 else{
     $checkArray = array('duplicate' => 'false');
