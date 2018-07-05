@@ -31,7 +31,7 @@ $course_end = $jsonArray['course_end'];
 $course_date = $jsonArray['course_date'];
 
 
-$check_sql="SELECT * FROM course_check_student WHERE course_id = '".$course_id."' and group_id = '".$group_id."' and checkin_date LIKE  '%{$course_date}%'";
+$check_sql="SELECT * FROM course_check_student WHERE course_id = '".$course_id."' and group_id = '".$group_id."' and student_id = '".$student_id."' and checkin_date LIKE  '%{$course_date}%'";
 $query_check=mysqli_query($conn,$check_sql);
 $count = mysqli_num_rows($query_check);
 $arrayFetch = null;
