@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2df5561-b968-45b5-9ca0-80829ffd4056" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/deleteFile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/downloadFile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getFile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploadFile.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,10 +22,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getClassroomCode.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="getClassroomCode.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/getClassroomCode.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="170">
               <caret line="35" column="60" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="60" />
             </state>
           </provider>
@@ -62,11 +58,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="downloadFile.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="createClassroomCode.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/createClassroomCode.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="downloadFile.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/downloadFile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="14" selection-start-line="2" selection-end-line="2" selection-end-column="14" />
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -94,15 +99,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="upload-file.php" pinned="false" current-in-tab="false">
-        <entry file="file://D:/MAMP/htdocs/php/upload/upload-file.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="45" column="53" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -216,12 +212,12 @@
       <workItem from="1530715289892" duration="7194000" />
       <workItem from="1530782090722" duration="1537000" />
       <workItem from="1530790182325" duration="10923000" />
-      <workItem from="1530866624658" duration="14308000" />
+      <workItem from="1530866624658" duration="15031000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55877000" />
+    <option name="totallyTimeSpent" value="56600000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1312" height="784" extended-state="6" />
@@ -465,13 +461,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/createClassroomCode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/checkStudentCheckIn.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
@@ -577,13 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getClassroomCode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="35" column="60" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/MAMP/htdocs/php/upload/function-download-file.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -607,8 +589,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/downloadFile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="14" selection-start-line="2" selection-end-line="2" selection-end-column="14" />
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/createClassroomCode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getClassroomCode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="35" column="60" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="60" />
         </state>
       </provider>
     </entry>
